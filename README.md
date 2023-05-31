@@ -1,5 +1,11 @@
 # mobile_docker_images
 
+
+Link para o vídeo do youtube com as explicações:
+
+https://youtu.be/Gaq0n6osSpE
+
+
 ** Importante **
 Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 5432 (database)
 
@@ -32,7 +38,4 @@ Rodar o docker-compose do arquivo na pasta "direto"
 Após os containers iniciarem, rodar na aplicação do flutter:
     flutter run
 
-
-
-Link para o vídeo do youtube com as explicações:
 
