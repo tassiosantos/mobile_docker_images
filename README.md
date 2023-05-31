@@ -1,4 +1,38 @@
 # mobile_docker_images
 
+** Importante **
+Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 5432 (database)
 
-docker.pkg.github.com/tassiosantos/mobile_docker_images/image:1.0
+
+##Existem duas formas de rodar:
+
+A primeira, baixando os 3 containers na mesma pasta e rodando:
+
+    docker-compose up
+
+
+A estrutura de arquivos deve ser:
+-------containers
+-------newsletter_back
+--------------database
+--------------newsletter_back
+-------newsletter_front
+--------------newsletter_front
+
+Após os cointainers do back-end e do front-end iniciarem, rodar na aplicação do flutter:
+
+    flutter run
+
+
+
+##Outro método:
+
+Rodar o docker-compose do arquivo na pasta "direto"
+
+Após os containers iniciarem, rodar na aplicação do flutter:
+    flutter run
+
+
+
+Link para o vídeo do youtube com as explicações:
+

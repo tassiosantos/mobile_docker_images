@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  backend:
+    image: tassiosantosdocker/mobile_development:backend
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - 8080:8080
+
+  database:
+    image: tassiosantosdocker/mobile_development:database
+    restart: always
+    ports:
+      - 5432:5432
