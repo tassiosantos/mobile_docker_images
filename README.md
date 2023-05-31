@@ -3,7 +3,7 @@
 
 Link para o vídeo do youtube com as explicações:
 
-https://youtu.be/Gaq0n6osSpE
+https://youtu.be/5sX3pwmiFJ0
 
 
 ** Importante **
