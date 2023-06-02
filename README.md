@@ -16,18 +16,18 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
 ## Primeiro método:
 
 
- - ### Baixar os 2 containers na mesma pasta:
+ - #### Baixar os 2 containers na mesma pasta:
 
-    - ### Os containers são:
+    - ##### Os containers são:
 
-        - ### Controle de imagens:
+        - ###### Controle de imagens:
           https://github.com/tassiosantos/mobile_docker_images
 
-        - ### Front-end:
+        - ###### Front-end:
 
           https://github.com/tassiosantos/newsletter_front
 
-Na pasta "direto" do respositório Controle de imagens rodar:
+ - #### Na pasta "direto" do respositório Controle de imagens rodar:
 
     docker-compose up
 
