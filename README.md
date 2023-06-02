@@ -23,7 +23,7 @@ A estrutura de arquivos deve ser:
    - database
    - newsletter_back
  - newsletter_front
-  - newsletter_front
+   - newsletter_front
 
 Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
 
