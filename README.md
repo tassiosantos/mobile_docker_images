@@ -25,6 +25,14 @@ A estrutura de arquivos deve ser:
  - newsletter_front
    - newsletter_front
 
+Os containers são:
+
+    https://github.com/tassiosantos/mobile_docker_images
+
+    https://github.com/tassiosantos/newsletter_back
+
+    https://github.com/tassiosantos/newsletter_front
+
 Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
 
     flutter run
