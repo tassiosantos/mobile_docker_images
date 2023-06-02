@@ -24,7 +24,6 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
           https://github.com/tassiosantos/mobile_docker_images
 
         - ###### Front-end:
-
           https://github.com/tassiosantos/newsletter_front
 
  - #### Na pasta "direto" do respositório Controle de imagens rodar:
@@ -50,7 +49,7 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
         - ###### Front-end:
           https://github.com/tassiosantos/newsletter_front
           
-        - ### Back-end:
+        - ###### Back-end:
           https://github.com/tassiosantos/newsletter_back
 
  - #### A estrutura de arquivos deve ser:
