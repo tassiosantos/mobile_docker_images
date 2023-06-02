@@ -15,7 +15,21 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
 
 ## Primeiro método:
 
-Rodar o docker-compose do arquivo na pasta "direto"
+
+### Baixar os 2 containers na mesma pasta:
+
+### Os containers são:
+
+### Controle de imagens:
+    https://github.com/tassiosantos/mobile_docker_images
+
+### Front-end:
+
+    https://github.com/tassiosantos/newsletter_front
+
+Na pasta "direto" do respositório Controle de imagens rodar:
+
+    docker-compose up
 
 Após os containers iniciarem, rodar na aplicação do flutter:
 
