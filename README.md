@@ -10,36 +10,10 @@ https://youtu.be/5sX3pwmiFJ0
 Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 5432 (database)
 
 
-##Existem duas formas de rodar:
-
-A primeira, baixando os 3 containers na mesma pasta e rodando:
-
-    docker-compose up
+## Existem duas formas de rodar:
 
 
-A estrutura de arquivos deve ser:
- - containers
- - newsletter_back
-   - database
-   - newsletter_back
- - newsletter_front
-   - newsletter_front
-
-Os containers são:
-
-    https://github.com/tassiosantos/mobile_docker_images
-
-    https://github.com/tassiosantos/newsletter_back
-
-    https://github.com/tassiosantos/newsletter_front
-
-Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
-
-    flutter run
-
-
-
-##Outro método:
+## Primeiro método:
 
 Rodar o docker-compose do arquivo na pasta "direto"
 
@@ -47,4 +21,42 @@ Após os containers iniciarem, rodar na aplicação do flutter:
 
     flutter run
 
+
+
+
+## Segundo Método: 
+
+### Baixar os 3 containers na mesma pasta:
+
+### Os containers são:
+
+### Controle de imagens:
+    https://github.com/tassiosantos/mobile_docker_images
+
+### Back-end:
+
+    https://github.com/tassiosantos/newsletter_back
+
+### Front-end:
+
+    https://github.com/tassiosantos/newsletter_front
+
+
+### A estrutura de arquivos deve ser:
+ - containers
+ - newsletter_back
+   - database
+   - newsletter_back
+ - newsletter_front
+   - newsletter_front
+
+
+### Após baixar os três repositórios, rodar:
+
+    docker-compose up
+
+
+### Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
+
+    flutter run
 
