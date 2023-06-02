@@ -20,12 +20,12 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
 
     - ### Os containers são:
 
-### Controle de imagens:
-    https://github.com/tassiosantos/mobile_docker_images
+        - ### Controle de imagens:
+          https://github.com/tassiosantos/mobile_docker_images
 
-### Front-end:
+        - ### Front-end:
 
-    https://github.com/tassiosantos/newsletter_front
+          https://github.com/tassiosantos/newsletter_front
 
 Na pasta "direto" do respositório Controle de imagens rodar:
 
