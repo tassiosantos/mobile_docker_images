@@ -20,8 +20,8 @@ A primeira, baixando os 3 containers na mesma pasta e rodando:
 A estrutura de arquivos deve ser:
  - containers
  - newsletter_back
-  - database
-  - newsletter_back
+   - database
+   - newsletter_back
  - newsletter_front
   - newsletter_front
 
