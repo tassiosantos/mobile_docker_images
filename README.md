@@ -28,49 +28,45 @@ Não deve existir nenhuma aplicação rodando nas portas 8080 (backend) e nem 54
           https://github.com/tassiosantos/newsletter_front
 
  - #### Na pasta "direto" do respositório Controle de imagens rodar:
+  
+       docker-compose up
 
-    docker-compose up
+ - #### Após os containers iniciarem, rodar na aplicação do flutter:
 
-Após os containers iniciarem, rodar na aplicação do flutter:
-
-    flutter run
+       flutter run
 
 
 
 
 ## Segundo Método: 
 
-### Baixar os 3 containers na mesma pasta:
+- #### Baixar os 3 containers na mesma pasta:
 
-### Os containers são:
+    - ##### Os containers são:
 
-### Controle de imagens:
-    https://github.com/tassiosantos/mobile_docker_images
+        - ###### Controle de imagens:
+          https://github.com/tassiosantos/mobile_docker_images
 
-### Back-end:
+        - ###### Front-end:
+          https://github.com/tassiosantos/newsletter_front
+          
+        - ### Back-end:
+          https://github.com/tassiosantos/newsletter_back
 
-    https://github.com/tassiosantos/newsletter_back
-
-### Front-end:
-
-    https://github.com/tassiosantos/newsletter_front
-
-
-### A estrutura de arquivos deve ser:
- - containers
- - newsletter_back
-   - database
+ - #### A estrutura de arquivos deve ser:
+   - containers
    - newsletter_back
- - newsletter_front
+     - database
+     - newsletter_back
    - newsletter_front
+     - newsletter_front
 
 
-### Após baixar os três repositórios, rodar:
+ - #### Após baixar os três repositórios, na pasta 'containers', rodar:
 
-    docker-compose up
+       docker-compose up
 
+ - #### Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
 
-### Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
-
-    flutter run
+       flutter run
 
