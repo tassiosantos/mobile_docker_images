@@ -25,7 +25,7 @@ A estrutura de arquivos deve ser:
 -------newsletter_front
 --------------newsletter_front
 
-Após os cointainers do back-end e do front-end iniciarem, rodar na aplicação do flutter:
+Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplicação do flutter:
 
     flutter run
 
