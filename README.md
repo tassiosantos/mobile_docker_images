@@ -36,6 +36,7 @@ Após os cointainers do back-end e do banco de dados iniciarem, rodar na aplica�
 Rodar o docker-compose do arquivo na pasta "direto"
 
 Após os containers iniciarem, rodar na aplicação do flutter:
+
     flutter run
 
 
